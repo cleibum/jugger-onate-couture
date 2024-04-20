@@ -1,0 +1,142 @@
+.bottom-enquiries {
+    display: flex;
+    font-family: Frank Ruhl Libre, serif;
+    min-height: 350px;
+    color:white;
+    flex-direction: row;
+    font-size: 15px;
+    gap: 0px, 0px;
+    margin-top: 10%;
+    padding-block-start: 65px;
+    padding-block-end: 70px;
+    padding-inline-start: 70px;
+    padding-inline-end: 70px; 
+    background-color: black;
+  }
+  .bottom-enquiries ul,
+  .bottom-enquiries li,
+  .bottom-enquiries p {
+    margin-bottom: 10px;
+  }
+  .bottom-left-nav-div,
+  .bottom-center {
+    flex: 1; 
+  }
+  .bottom-left-nav {
+    padding: 0;
+    list-style: none;
+    cursor: pointer;
+  }
+  .textbox {
+    width: 300px; 
+    height: 40px;
+    margin-top: 2%;
+    border: 2px solid lightgrey; 
+    background-color: transparent; 
+    color: lightgrey; 
+    font-size: 16px; 
+    padding: 5px; 
+  }
+  
+  .textbox::placeholder {
+    color: white; 
+    font-family: Frank Ruhl Libre,serif;
+  }
+  .submit-button {
+    padding: 13px 25px;
+    margin: 10px 0px 0px;
+    background-color: darkkhaki;
+    font-family: Frank Ruhl Libre, serif;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .submit-button:hover {
+    background-color:bisque;
+  }
+
+  .bottom-center {
+    font-family: Frank Ruhl Libre, serif;
+  }
+
+  .about {
+    transition: opacity 0.15s;
+  }
+  .founders {
+    transition: opacity 0.15s;
+  }
+  .shop {
+    transition: opacity 0.15s;
+  }
+  .faq {
+    transition: opacity 0.15s;
+  }
+  .shipping {
+    transition: opacity 0.15s;
+  }
+  .returns {
+    transition: opacity 0.15s;
+  }
+  .terms {
+    transition: opacity 0.15s;
+  }
+  .privacy {
+    transition: opacity 0.15s;
+  }
+  .about:hover {
+    opacity: 0.7;
+  }
+  .founders:hover {
+    opacity: 0.7;
+  }
+  .shop:hover {
+    opacity: 0.7;
+  }
+  .faq:hover {
+    opacity: 0.7;
+  }
+  .shipping:hover {
+    opacity: 0.7;
+  }
+  .returns:hover {
+    opacity: 0.7;
+  }
+  .terms:hover {
+    opacity: 0.7;
+  }
+  .privacy:hover {
+    opacity: 0.7;
+  }
+.about:active {
+    opacity: 0.5;
+}
+.founders:active {
+    opacity: 0.5;
+}
+.shop:active {
+    opacity: 0.5;
+}
+.faq:active {
+    opacity: 0.5;
+}
+.shipping:active {
+    opacity: 0.5;
+}
+.returns:active {
+    opacity: 0.5;
+}
+.terms:active {
+    opacity: 0.5;
+}
+.privacy:active {
+    opacity: 0.5;
+}
+.payment-options {
+    max-width: 100%;
+}
+.payment-credits-socialmedia {
+    display: inline-block;
+    margin-top: 70px; /* Adjust as needed */
+    margin-bottom: 10%;
+}

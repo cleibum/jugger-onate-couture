@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Frank Ruhl Libre, serif;
+  }
+
+  .container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .icon-nav {
+    position: absolute;
+    top: 50%;
+    right: calc(15% + 70px); 
+    transform: translateY(2%);
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0; 
+    cursor: pointer;
+  }
+  
+  .icon-nav a {
+    margin-left: 20px; 
+  }
+  
+  .icon-nav img {
+    width: 20px; 
+    height: 20px; 
+  }
+  .login-icon {
+    transition: transform 0.3s ease;
+  }
+  .login-icon:hover {
+    transform: scale(1.2);
+  }
+  .login-icon:active {
+    transform: scale(0.8);
+  }
+  .search-icon {
+    transition: transform 0.3s ease;
+  }
+  .search-icon:hover {
+    transform: scale(1.2);
+  }
+  .search-icon:active {
+    transform: scale(0.8);
+  }
+  .heart-icon {
+    transition: transform 0.3s ease;
+  }
+  .heart-icon:hover {
+    transform: scale(1.2);
+  }
+  .heart-icon:active {
+    transform: scale(0.8);
+  }
+  .cart-icon {
+    transition: transform 0.3s ease;
+  }
+  .cart-icon:hover {
+    transform: scale(1.2);
+  }
+  .cart-icon:active {
+    transform: scale(0.8);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-nav {
+    display: flex;
+    font-family: Frank Ruhl Libre, serif;
+    margin-top: 1%;;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+    transition: color 15s;
+  }
+  
+  .main-nav a {
+    margin: 0 20px; 
+  }
+  .nav1 {
+    transition: transform 0.3s ease;
+  }
+  .nav1:hover {
+    transform: scale(1.2);
+  }
+  .nav1:active {
+    transform: scale(0.8);
+  }
+  .nav2 {
+    transition: transform 0.3s ease;
+  }
+  .nav2:hover {
+    transform: scale(1.2);
+  }
+  .nav2:active {
+    transform: scale(0.8);
+  }
+  .nav3 {
+    transition: transform 0.3s ease;
+  }
+  .nav3:hover {
+    transform: scale(1.2);
+  }
+  .nav3:active {
+    transform: scale(0.8);
+  }
+  .nav4 {
+    transition: transform 0.3s ease;
+  }
+  .nav4:hover {
+    transform: scale(1.2);
+  }
+  .nav4:active {
+    transform: scale(0.8);
+  }
+  .nav5 {
+    transition: transform 0.3s ease;
+  }
+  .nav5:hover {
+    transform: scale(1.2);
+  }
+  .nav5:active {
+    transform: scale(0.8);
+  }
+  .section-container {
+    display: flex;
+    align-items: center;
+    padding: 0.5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 2%;
+}
+
+.section-image {
+  flex: 1;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+
+.section-content {
+  flex: 1;
+  max-width: 100%;
+  padding: 0 100px;
+}
+
+.section-title {
+  font-size: 70px;
+  font-family: 'Modern No. 20', sans-serif;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  text-size-adjust: 100%;
+  font-style: italic;
+}
+
+.section-description {
+  font-size: 20px;
+  font-family:Frank Ruhl Libre, serif;
+  line-height: 1.5;
+  margin-left: 20px;
+  padding: 10px;
+}

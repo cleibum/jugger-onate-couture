@@ -1,0 +1,118 @@
+.latest-collections {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3%;
+    font-family: 'Modern No. 20', sans-serif;
+    font-style:italic;
+  }
+  .collection-nav {
+    text-align:center;
+    font-family: Frank Ruhl Libre, serif;
+    font-size: 17px;
+    margin-top: 1%;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .latest-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+  }
+  .latest-image img {
+    margin: 0 20px; 
+    width: 15%; 
+    height: auto; 
+  }
+  .shop-now-button {
+    text-align: center; 
+    padding: 5% 0;
+  }
+  .shop-now-button button {
+    padding: 0.55% 0.50%;
+    font-size: 15px; 
+    background-color: white;
+    color: black; 
+    border: 3; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    transition: background-color 0.30s, color 0.30s;
+  }
+  .shop-now-button button:hover {
+    background-color: black;
+    color: white; 
+  }
+  .shop-now-button button:active {
+    opacity: 0.8;
+  }
+  .lookback-artistry {
+    display: flex;
+    justify-content: center;
+  }
+  .lookback-artistry img {
+    width:390px;
+    height: auto;
+    margin-top: -10%;
+    margin-right: 10px;
+    margin-bottom:5%;
+  }
+  .quote1 {
+    box-sizing:border-box;
+    color: rgb(27, 27, 27);
+    font-family: Frank Ruhl Libre, serif;
+    display:block;
+    font-size:15px;
+    letter-spacing: 0.4px;
+    font-weight:400;
+    line-height:32px;
+    overflow-wrap: break-word;
+    text-align:center;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    padding-left: 20%;
+    padding-right:20%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  .lookback-artistry {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .lookback-artistry .image-link {
+    position: relative;
+    margin: 10px; 
+  }
+  
+  .lookback-artistry img {
+    width: 350px;
+    height: auto; 
+    opacity: 1;
+    transition: opacity 0.3s ease; 
+  }
+  
+  .lookback-artistry .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 57px;
+    font-family: Frank Ruhl Libre, serif;
+    transition: color 0.3s ease; 
+    
+  }
+  
+  .lookback-artistry .image-link:hover img {
+    opacity: 0.2; 
+  }
+  
+  .lookback-artistry .image-link:hover .image-text {
+    color: gray; 
+  }
+
+.latest-collections {
+    font-family: Frank Ruhl Libre, serif;
+}
+  
+  
